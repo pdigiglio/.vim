@@ -1,6 +1,3 @@
-" assogiate *.pgf with LaTeX filetype
-au BufRead,BufNewFile *.pgf setfiletype tex
-
 " No vi compatibiliby
 set nocompatible
 

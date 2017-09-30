@@ -1,3 +1,3 @@
 " Associate *.gpl and *.plt with GNUplot filetype
-au BufRead,BufNewFile *.gpl setfiletype gnuplot
-au BufRead,BufNewFile *.plt setfiletype gnuplot
+autocmd BufRead,BufNewFile *.gpl setfiletype gnuplot
+autocmd BufRead,BufNewFile *.plt setfiletype gnuplot

@@ -1,2 +1,2 @@
 " Associate *.pgf with TeX filetype.
-au BufRead,BufNewFile *.pgf setfiletype tex
+autocmd BufRead,BufNewFile *.pgf setfiletype tex

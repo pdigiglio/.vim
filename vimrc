@@ -14,10 +14,10 @@ set showmatch
 " How many tenths of a second to blink when matching brackets
 set mat=2
 
-" no sound on errors
+" No sound on errors
 set noerrorbells
-" no flash on errors
-set novisualbell
+" Flash on errors
+set visualbell
 
 syntax enable
 
@@ -52,5 +52,8 @@ Plug 'vim-airline/vim-airline'
 
 " Plug-in to align text
 Plug 'vim-scripts/Align'
+
+" Interface to TaskWarrior
+" Plug 'blindFS/vim-taskwarrior'
 
 call plug#end()

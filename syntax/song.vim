@@ -31,7 +31,7 @@ endif
 syntax region song_block start="{{" end="}}" fold transparent
 
 " Match the name definition of the blocks
-syntax keyword song_parts          contained Bridge Refrain
+syntax keyword song_parts          contained Bridge Refrain Intro
 syntax keyword song_part_modifiers contained pattern
 syntax match   define_block_name "--\p\+--" contains=song_parts,song_part_modifiers
 

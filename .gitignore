@@ -2,3 +2,5 @@
 autoload/plug.vim
 # Ignore the directory of the plugins downloaded by plug.vim
 plugged/*
+# Ignore spell directory
+spell/*

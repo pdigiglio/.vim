@@ -12,7 +12,7 @@ endif
 syntax region song_block start="{{" end="}}" fold transparent
 
 " Match the name definition of the blocks
-syntax keyword song_parts          contained Bridge Refrain Intro
+syntax keyword song_parts          contained Bridge Refrain Intro Outro
 syntax keyword song_part_modifiers contained pattern
 syntax match   define_block_name "--\p\+--" contains=song_parts,song_part_modifiers
 
@@ -21,7 +21,7 @@ syntax match   call_counter      "x\d\+"
 syntax match   call_block_name   "{{\p\+}}" nextgroup=call_counter contains=song_parts,song_part_modifiers
 
 " Match the chords
-syntax match chord '\(\s*\(A\|B\|C\|D\|E\|F\|G\)[b#]\=\([m]\|sus\)\=[1-9]*[/]\=\s*\)\+$'
+syntax match chord '\(\s*[/(]\=\s*\(A\|B\|C\|D\|E\|F\|G\)[b#]\=\([m]\|sus\|maj\)\=\d*[/()]\=\s*\)\+$'
 
 " Set the syntax of the current file
 let b:current_syntax = "song"

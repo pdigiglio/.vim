@@ -21,7 +21,7 @@ syntax match   call_counter      "x\d\+"
 syntax match   call_block_name   "{{\p\+}}" nextgroup=call_counter contains=song_parts,song_part_modifiers
 
 " Match the chords
-syntax match chord '\(\s*[/(]\=\s*\(A\|B\|C\|D\|E\|F\|G\)[b#]\=\([m]\|sus\|maj\)\=\d*[/()]\=\s*\)\+$'
+syntax match chord '\(\s*[/(]\=\s*[A-G][b#]\=\(m\|sus\|maj\|°\)\=\d*[/()]\=\s*\)\+$'
 
 " Set the syntax of the current file
 let b:current_syntax = "song"

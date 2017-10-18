@@ -14,10 +14,10 @@ set showmatch
 " How many tenths of a second to blink when matching brackets
 set mat=2
 
-" No sound on errors
+" [No] Sound on errors
 set noerrorbells
-" Flash on errors
-set visualbell
+" [No] Flash on errors
+set novisualbell
 
 syntax enable
 

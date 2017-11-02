@@ -36,7 +36,9 @@ set incsearch
 set hlsearch
 
 " Allow mouse
-set mouse=a
+if has('mouse')
+    set mouse=a
+endif
 
 " Configuration for plug.vim, the plugin manager
 " https://github.com/junegunn/vim-plug

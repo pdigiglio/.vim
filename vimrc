@@ -32,6 +32,9 @@ set tabstop=4
 " Always show the status line
 set laststatus=2
 
+" Allow backspacing on everything in insert mode
+set backspace=indent,eol,start
+
 set incsearch
 set hlsearch
 

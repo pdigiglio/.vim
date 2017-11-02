@@ -17,7 +17,7 @@ set mat=2
 " No sound on errors
 set noerrorbells
 " Flash on errors
-set visualbell
+set novisualbell
 
 syntax enable
 

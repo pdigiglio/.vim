@@ -14,3 +14,8 @@ spell/*
 .swap/*
 # But the directory itself and a placeholder
 !.swap/.git_keep
+
+# Ignore the backup-directory content
+.backup/*
+# But the directory itself and a placeholder
+!.backup/.git_keep

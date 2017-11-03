@@ -49,6 +49,8 @@ set undofile
 set undodir=~/.vim/.undo//
 " Set a swap directory
 set directory=~/.vim/.swap//
+" Set a backup directory
+set backupdir=~/.vim/.backup//
 
 " Configuration for plug.vim, the plugin manager
 " https://github.com/junegunn/vim-plug

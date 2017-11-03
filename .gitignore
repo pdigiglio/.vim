@@ -4,3 +4,8 @@ autoload/plug.vim
 plugged/*
 # Ignore spell directory
 spell/*
+
+# Ignore the undo-directory content
+undodir/*
+# But the directory itself and a placeholder
+!undodir/.git_keep

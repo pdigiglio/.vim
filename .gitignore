@@ -9,3 +9,8 @@ spell/*
 .undo/*
 # But the directory itself and a placeholder
 !.undo/.git_keep
+
+# Ignore the swap-directory content
+.swap/*
+# But the directory itself and a placeholder
+!.swap/.git_keep

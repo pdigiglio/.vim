@@ -46,7 +46,9 @@ endif
 " Allow for undo also when a buffer is closed and reopened
 set undofile
 " TODO: try not to hard-code this
-set undodir=~/.vim/.undo
+set undodir=~/.vim/.undo//
+" Set a swap directory
+set directory=~/.vim/.swap//
 
 " Configuration for plug.vim, the plugin manager
 " https://github.com/junegunn/vim-plug

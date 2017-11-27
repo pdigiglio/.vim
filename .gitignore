@@ -5,6 +5,8 @@ plugged/*
 # Ignore spell directory
 spell/*
 
+.netrwhist
+
 # Ignore the undo-directory content
 .undo/*
 # But the directory itself and a placeholder

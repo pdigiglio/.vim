@@ -51,3 +51,8 @@ set undodir=~/.vim/.undo//
 set directory=~/.vim/.swap//
 " Set a backup directory
 set backupdir=~/.vim/.backup//
+
+" Open vimrc
+nnoremap <leader>v  :tabnew $MYVIMRC<cr>
+" Source vimrc
+nnoremap <leader>sv :source $MYVIMRC<cr>

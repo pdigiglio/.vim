@@ -56,3 +56,9 @@ set backupdir=~/.vim/.backup//
 nnoremap <leader>v  :tabnew $MYVIMRC<cr>
 " Source vimrc
 nnoremap <leader>sv :source $MYVIMRC<cr>
+
+augroup AutoSaveFolders
+    autocmd!
+    autocmd BufWinLeave * mkview
+    autocmd BufWinEnter * silent loadview
+augroup END

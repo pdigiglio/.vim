@@ -21,3 +21,6 @@ spell/*
 .backup/*
 # But the directory itself and a placeholder
 !.backup/.git_keep
+
+# Ignore folder where the file foldings are saved
+view/

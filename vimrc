@@ -57,7 +57,7 @@ nnoremap <leader>v  :tabnew $MYVIMRC<cr>
 " Source vimrc
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
-augroup AutoSaveFolders
+augroup AutoSaveFolds
     autocmd!
     autocmd BufWinLeave * mkview
     autocmd BufWinEnter * silent loadview

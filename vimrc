@@ -20,6 +20,7 @@ set noerrorbells
 set novisualbell
 
 syntax enable
+set modeline
 
 filetype indent on
 " Use spaces instead of tabs

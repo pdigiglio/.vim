@@ -22,7 +22,7 @@ syntax match   call_block_name   "{{\p\+}}" nextgroup=call_counter contains=song
 
 
 " Match the chords
-syntax match chord '\(\s*\<[(]\=[A-G][b#]\=\d*\(m\|sus\|maj\|°\)\=\d*[/)]\=\s*\)\+$'
+syntax match chord '\([/(]\=[A-G%$|][b#]\=\d*\(m\|sus\|maj\|°\)\=\d*[/)]\=\s*\)\+$'
 
 " Match the assignment of variables (i.e. changing the key of a song part).
 syntax keyword song_part_submodifiers contained key

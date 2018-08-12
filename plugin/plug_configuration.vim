@@ -17,6 +17,6 @@ Plug 'vim-scripts/Align'
 " Plug 'blindFS/vim-taskwarrior'
 
 " Syntax highlighting for offlineIMAP
-Plug 'hrother/offlineimaprc.vim'
+Plug 'pdigiglio/offlineimaprc.vim'
 
 call plug#end()

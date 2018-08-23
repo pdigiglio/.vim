@@ -60,6 +60,8 @@ nnoremap <leader>sv :source $MYVIMRC<cr>
 
 augroup AutoSaveFolds
     autocmd!
-    autocmd BufWinLeave * mkview
-    autocmd BufWinEnter * silent loadview
+
+    " '?*' no longer matches empty filenames
+    autocmd BufWinLeave,BufLeave ?* mkview
+    autocmd BufWinEnter          ?* silent loadview
 augroup END
